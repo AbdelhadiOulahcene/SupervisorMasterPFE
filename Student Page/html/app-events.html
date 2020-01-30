@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Agenda</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+<link rel="stylesheet" href="../css/fullcalendar.min.css">
+<link rel="stylesheet" href="../css/font-awesome.min.css">
+<link rel="stylesheet" href="../css/main.css">
+<link rel="stylesheet" href="../css/color_skins.css">
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/icn.css">
+<link rel="stylesheet" href="../css/calendar.css">
+</head>
+<body >
+<div id="wrapper">
+    <nav class="navbar navbar-fixed-top">
+        <div class="container-fluid">
+
+            <div class="navbar-brand">
+                <img src="..\img\ESI.png"  class="img-responsive logo">               
+            </div>
+
+            <div class="navbar-right">               
+
+                <div id="navbar-menu">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="#" class="icon-menu" >
+                                <img src="..\icons\help.svg" class="icon-menu2" ></img>
+                            </a>
+                        </li>
+
+                        <li class="dropdown">
+                            <a href="javascript:void(0);" class="dropdown-toggle icon-menu" data-toggle="dropdown">
+                                <img src="..\icons\bell.svg" class="icon-menu2" ></img>
+                                <span class="notification-dot"></span>
+                            </a>
+                            <ul class="dropdown-menu notifications animated shake">
+                                <div class="row" style="margin-bottom: -40px;">
+                                    <div class="col-8" >
+                                        <li class="header">
+                                            <p class="notf">Notifications</p>
+                                        </li>
+                                    </div>
+                                    <div class="col-4" >
+                                        <a href="javascript:void(0);" class="moree" style="font-family:'Poppins Regular';">Supprimer tout</a>
+                                    </div>
+                                </div>
+
+                                <li>
+                                    <a href="javascript:void(0);">
+                                        <div class="media">
+                                            <div class="media-left">
+                                                <img src="..\icons\done2.svg" class="icon-menu2"></img>
+                                            </div>
+                                            <div class="media-body">
+                                                <h6 class="text osr">Le groupe 04 ont finis leur projet.</h6>
+                                                <span class="time osl">11:30, Aujourd'hui</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>  
+
+                                <li>
+                                    <a href="javascript:void(0);">
+                                        <div class="media">
+                                            <div class="media-left">
+                                                <img src="..\icons\warn.svg" class="icon-menu2" ></img>
+                                            </div>
+                                            <div class="media-body">
+                                                <h6 class="text osr">Moumna Akram n'a pas encore rendu le rapport.</h6>
+                                                <span class="time osl">10:00, Aujourd'hui</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="javascript:void(0);">
+                                        <div class="media">
+                                            <div class="media-left">
+                                                <img src="..\icons\pdf.svg" class="icon-menu2" ></img>
+                                            </div>
+                                            <div class="media-body">
+                                                <h6 class="text osr">Oulahcene Abdelhadi a rendu le PV 04.</h6>
+                                                <span class="time osl">08:15, 05/11/2019</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <li class="footer"><a href="javascript:void(0);" class="more" style="font-family:'Poppins Regular';">Voir tout</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="dropdown">
+                            <a href="settings.html" class="icon-menu" > 
+                                <img src="..\icons\settings.svg" class="icon-menu2" ></img>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="icon-menu">
+                                <img src="..\icons\logout.svg" class="icon-menu2" ></img>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <div id="left-sidebar" class="sidebar">
+        <div class="sidebar-scroll">
+            <div class=" row">
+                <div class="col-3">
+                    <img class="rounded-circle" src="../img/avatar10.jpg" style="height:80px;width:80px;margin-top: 40px;margin-left: 10px;margin-bottom: 20px;">
+                </div>
+                <div class=" col-9" >
+                    <p class="nom "  style="font-family:'Open Sans Light';margin-left:30px;margin-top:60px;margin-bottom: 0px;color: #ACACAC">Bienvenue,</p>
+                    <p class="nom " style="font-family:'Open Sans SemiBold';margin-left:30px; color: #000">ZELLAT Abdelkhalek</p>
+                </div>  
+            </div>            
+            <hr style="border: 0.5px solid #707070;">
+            <div class="tab-content p-l-0 p-r-0" >
+                <div class="tab-pane animated fadeIn active" id="hr_menu">
+                    <nav class="sidebar-nav" >
+                        <ul class="main-menu metismenu " >
+                            <li >
+                                <a href="app-events.html" style="font-family:'Open Sans Light';">
+                                    <img src="..\icons\calendar.svg" class="icon-menu3 " ></img>Agenda
+                                </a>
+                            </li>
+                            <li >
+                                <a  href="project-list.html" style="font-family:'Open Sans Light';">
+                                    <img src="..\icons\projetcs.svg" class="icon-menu3" ></img>Liste des Projets
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>          
+        </div>
+    </div>
+<!-- Main content -->
+    <div id="main-content">
+        <div class="container-fluid">
+            <div class="block-header">
+                <div class="row ">
+                    <div class="col-lg-8 col-md-8 col-sm-8">
+                        <h2 class="ossm"> Agenda</h2>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                        <h2 class="ossm"> Evénements</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row clearfix">
+                <div class="col-lg-8">
+                    <div class="card">
+                        <div class="body">
+                            <div id="calendar"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="body" style="max-height:580px;overflow-y:scroll;">	
+                        	<font color=#008BBF>   
+                            
+                            <div class="event-name row">
+                                <div class="col-3 text-center " >
+                                    <h4 class="day " >01
+                                        <span class='month '>JAN</span>
+                                    </h4>
+                                </div>
+                                <div class="col-9 eve">
+                                    <p><img src="..\icons\agendaa.svg" class="icon-menu4" ></img>Réunion pédagogique</p>
+                                    <p><img src="..\icons\users.svg" class="icon-menu4" ></img>Groupe 04 </p>
+                                    <p><img src="..\icons\map.svg" class="icon-menu4" ></img>ESI - Salle 11</p>
+                                </div>
+                            </div>  
+                            <hr class="bl">
+                            <div class="event-name row">
+                                <div class="col-3 text-center">
+                                    <h4 class="day">16
+                                    	<span class='month'>JAN</span>
+                                    </h4>
+                                </div>
+                                <div class="col-9 eve">
+                                    <p><img src="..\icons\agendaa.svg" class="icon-menu4" ></img>Deadline du remise</p>
+                                    <p><img src="..\icons\users.svg" class="icon-menu4" ></img>Groupe 06 </p>
+                                </div>
+                            </div>
+                            <hr class="bl">
+                            <div class="event-name row">
+                                <div class="col-3 text-center">
+                                    <h4 class="day">19
+                                    	<span class='month'>JAN</span>
+                                    </h4>
+                                </div>
+                                <div class="col-9 eve">
+                                    <p><img src="..\icons\agendaa.svg" class="icon-menu4" ></img>Réunion pédagogique</p>
+                                    <p><img src="..\icons\users.svg" class="icon-menu4" ></img>Groupe 08 </p>
+                                    <p><img src="..\icons\map.svg" class="icon-menu4" ></img>ESI-CP4</p>
+                                </div>
+                            </div>
+                            <hr class="bl">
+                            <div class="event-name row">
+                                <div class="col-3 text-center">
+                                    <h4 class="day">21
+                                    	<span class='month'>JAN</span>
+                                    </h4>
+                                </div>
+                                <div class="col-9 eve">
+                                    <p><img src="..\icons\agendaa.svg" class="icon-menu4" ></img>Réunion pédagogique</p>
+                                    <p><img src="..\icons\users.svg" class="icon-menu4" ></img>Groupe 10 </p>
+                                    <p><img src="..\icons\map.svg" class="icon-menu4" ></img>ESI-DPGR</p>
+                                </div>
+                            </div>
+                            <hr class="bl">
+                            <div class="event-name row">
+                               <div class="col-3 text-center">
+                                    <h4 class="day">29
+                                    	<span class='month'>JAN</span>
+                                    </h4>
+                                </div>
+                                <div class="col-9 eve">
+                                    <p><img src="..\icons\agendaa.svg" class="icon-menu4" ></img>Présentation</p>
+                                    <p><img src="..\icons\users.svg" class="icon-menu4" ></img>Groupe 04 </p>
+                                    <p><img src="..\icons\map.svg" class="icon-menu4" ></img>ESI-Salle 11</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>   
+</div>
+<!-- Javascript -->
+<script src="../js/libscripts.bundle.js"></script>    
+<script src="../js/vendorscripts.bundle.js"></script>
+<script src="../js/fullcalendarscripts.bundle.js"></script> 
+<script src="../js/fullcalendar.js"></script> 
+<script src="../js/mainscripts.bundle.js"></script>
+<script src="../js/calendar.js"></script>
+
+</body>
+</html>

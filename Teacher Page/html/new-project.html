@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Nouveau projet</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+<link rel="stylesheet" href="../css/font-awesome.min.css">
+<link rel="stylesheet" href="../css/bootstrap-datepicker3.min.css">
+<link rel="stylesheet" href="../css/dropify.min.css">
+<link rel="stylesheet" href="../css/main.css">
+<link rel="stylesheet" href="../css/color_skins.css">
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/project-detail.css">     
+<link rel="stylesheet" href="../css/icn.css">
+<link rel="stylesheet" href="../css/sweetalert.css">
+
+</head>
+<div style="width : 100% ; height : 100% ; z-index : 2 ; background-color:  blue ; " ></div>
+<body class="theme-orange" >
+<div id="wrapper">
+    <nav class="navbar navbar-fixed-top">
+        <div class="container-fluid">
+
+            <div class="navbar-brand">
+                <img src="..\img\ESI.png"  class="img-responsive logo">               
+            </div>
+
+            <div class="navbar-right">               
+
+                <div id="navbar-menu">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="#" class="icon-menu" >
+                                <img src="..\icons\help.svg" class="icon-menu2" ></img>
+                            </a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="javascript:void(0);" class="dropdown-toggle icon-menu" data-toggle="dropdown">
+                                <img src="..\icons\bell.svg" class="icon-menu2" ></img>
+                                <span class="notification-dot"></span>
+                            </a>
+                            <ul class="dropdown-menu notifications animated shake">
+                                <div class="row" style="margin-bottom: -40px;">
+                                    <div class="col-8" >
+                                        <li class="header">
+                                            <p class="notf">Notifications</p>
+                                        </li>
+                                    </div>
+                                    <div class="col-4" >
+                                        <a href="javascript:void(0);" class="moree" style="font-family:'Poppins Regular';">Supprimer tout</a>
+                                    </div>
+                                </div>
+
+                                <li>
+                                    <a href="javascript:void(0);">
+                                        <div class="media">
+                                            <div class="media-left">
+                                                <img src="..\icons\done2.svg" class="icon-menu2"></img>
+                                            </div>
+                                            <div class="media-body">
+                                                <h6 class="text osr">Le groupe 04 ont finis leur projet.</h6>
+                                                <span class="time osl">11:30, Aujourd'hui</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>  
+
+                                <li>
+                                    <a href="javascript:void(0);">
+                                        <div class="media">
+                                            <div class="media-left">
+                                                <img src="..\icons\warn.svg" class="icon-menu2" ></img>
+                                            </div>
+                                            <div class="media-body">
+                                                <h6 class="text osr">Moumna Akram n'a pas encore rendu le rapport.</h6>
+                                                <span class="time osl">10:00, Aujourd'hui</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="javascript:void(0);">
+                                        <div class="media">
+                                            <div class="media-left">
+                                                <img src="..\icons\pdf.svg" class="icon-menu2" ></img>
+                                            </div>
+                                            <div class="media-body">
+                                                <h6 class="text osr">Oulahcene Abdelhadi a rendu le PV 04.</h6>
+                                                <span class="time osl">08:15, 05/11/2019</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <li class="footer"><a href="javascript:void(0);" class="more" style="font-family:'Poppins Regular';">Voir tout</a></li>
+                            </ul>
+                        </li>
+                        <li >
+                            <a href="settings.html" class="icon-menu" > 
+                                <img src="..\icons\settings.svg" class="icon-menu2" ></img>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="icon-menu">
+                                <img src="..\icons\logout.svg" class="icon-menu2" ></img>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <div id="left-sidebar" class="sidebar">
+        <div class="sidebar-scroll">
+            <div class=" row">
+                <div class="col-3">
+                    <img class="rounded-circle" src="../img/avatar10.jpg" style="height:80px;width:80px;margin-top: 40px;margin-left: 10px;margin-bottom: 20px;">
+                </div>
+                <div class=" col-9" >
+                    <p class="nom "  style="font-family:'Open Sans Light';margin-left:30px;margin-top:60px;margin-bottom: 0px;color: #ACACAC">Bienvenue,</p>
+                    <p class="nom " style="font-family:'Open Sans SemiBold';margin-left:30px; color: #000">MESSOUDANE Idris</p>
+                </div>  
+            </div>            
+            <hr style="border: 0.5px solid #707070;">
+            <div class="tab-content p-l-0 p-r-0" >
+                <div class="tab-pane animated fadeIn active" id="hr_menu">
+                    <nav class="sidebar-nav" >
+                        <ul class="main-menu metismenu " >
+                            <li >
+                                <a href="app-events.html" style="font-family:'Open Sans Light';">
+                                    <img src="..\icons\calendar.svg" class="icon-menu3 " ></img>Agenda
+                                </a>
+                            </li>
+                            <li >
+                                <a  href="project-list.html" style="font-family:'Open Sans Light';">
+                                    <img src="..\icons\projetcs.svg" class="icon-menu3" ></img>Liste des Projets
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>          
+        </div>
+    </div>
+<!-- Main content -->
+    <div id="main-content" class="profilepage_1">
+        <div class="container-fluid">
+            <div class="progress progress-lg  block-header" style="width:100% ; height: 35px;" >
+                <div class="progress-bar " role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%; font-size: 20px;color: #000000;margin-left: 450px;" > 0%</div>
+            </div>
+            <div class="row clearfix">
+                <div class="col-lg-4 col-md-12">
+                    <h5 class="ossm">Description</h5>
+                    <div class="card">
+                        <div class="body">
+                            <input type="text" class="form-control pt pr" placeholder="Nom du projet"><br>
+                            <select type="text" class="form-control pt pr"  data-placeholder="Type" >
+                                <option>Master</option>
+                                <option>PFE</option>
+                            </select><br>
+                            <input data-provide="datepicker" data-date-autoclose="true" class="form-control pt pr" data-date-format="dd/mm/yyyy" placeholder="Deadline"><br>
+                            
+                            <textarea class="form-control pt pr" rows="5" cols="30" placeholder="Description"></textarea>
+
+                        </div>
+                    </div>
+                    <h5 class="ossm">Etudiants</h5>
+                    <div class="card">
+                        <div class="body">
+                            
+      
+                        </div>
+                        <button class="buttonm3 ossm js-sweetalert" data-type="prompt2">
+                            <img src="..\icons\add.svg" class="icon-menu2 " > Ajouter Etudiant
+                        </button>
+                    </div>
+                    <h5 class="ossm">Encadreurs</h5>
+                    <div class="card">
+                        <div class="body">
+                            
+
+                            
+                        
+                        </div>
+                        <button class="buttonm3 ossm js-sweetalert" data-type="prompt">
+                            <img src="..\icons\add.svg" class="icon-menu2 " > Ajouter Encadreur
+                        </button>
+                    </div>                     
+                </div>
+                <div class="col-lg-8 col-md-12">
+                    <h5 class="ossm">Détails du projet</h5>
+                    <div class="card">
+                        <div class="body" style="margin-bottom: 20px;">
+                            <div class="row" style="margin-bottom: 0px;margin-left: 80px; font-size: 25px;">
+                                <a href="#" ><img src="..\icons\prec.svg" class="icon-menu2" ></a>
+                                <p class="ossm"style="margin-left: 20px;margin-right: 20px;">Documentation et bibliographie</p>
+                                <a href="#" ><img src="..\icons\next.svg" class="icon-menu2" ></a>
+                                <button class="js-sweetalert buttonm3 ossm" data-type="prompt5">
+                                        <img src="..\icons\add.svg" class="icon-menu2 " >
+                                </button>
+                            </div>
+                            <div class="progress" style="padding:0;margin-right:-20px;margin-left:-20px;height:5px;">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
+                                </div>
+                            </div>
+                            <div class="vl" >
+
+                                <div class="timeline-item ">
+                                    <div class="row" style=" margin-top: -20px;" >
+                                        <div class="col-2" style="margin-left: -44px;">
+                                            <img src="..\icons\done.svg" class="icon-menu6 rounded-circle" style="background-color: #008bbf;padding: 8px;">
+                                        </div>
+                                        <div class="col-10" style="margin-left: -55px; ">
+                                            <p class="ossm" style="margin-bottom: 20px;margin-top: 0px;font-size: 20px;">Début du projet</p>
+                                        </div>
+                                    </div>          
+                                </div>        
+                            </div>
+                        </div>
+                    </div>
+
+                    <h5 class="ossm">Ajouter étape</h5>
+                    <div class="card">
+                        <div class="body">
+
+                            <div class="form-group" >
+                                    <input type="text" class="form-control pt pr" placeholder="Nom de l'étape">
+                            </div>
+
+                            <div class="row">
+                                <div class="col-6"   >
+                                    <div class="input-group mb-3">                                        
+                                        <input data-provide="datepicker" data-date-autoclose="true" class="form-control pt pr" data-date-format="dd/mm/yyyy" placeholder="Date début">
+                                    </div>
+                                </div>
+                                <div class="col-6"   >
+                                    <div class="input-group mb-3">                                        
+                                        <input data-provide="datepicker" data-date-autoclose="true" class="form-control pt pr" data-date-format="dd/mm/yyyy" placeholder="Date du fin">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group" >  
+                                    <button class="buttonm3 js-sweetalert" data-type="prompt3">
+                                    <label class="container osl">Livrable
+                                        <input type="checkbox" id="livr">
+                                        <span class="checkmark" ></span>
+                                    </label>
+                                    </button>
+                                    <button class="buttonm3 js-sweetalert" data-type="prompt4">
+                                    <label class="container osl">Réunion
+                                        <input type="checkbox" id="reun" >
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    </button>      
+                            </div>
+                            <div class="form-popup" id="myForm">
+                                  <form  class="form-container">
+                                    <button type="button" class="btn "  onclick="closeForm()">Confirmer</button>
+                                  </form>
+                            </div>
+                            <div class="form-popup" id="myForm2">
+                                  <form  class="form-container">
+                                        <button type="button" class="btn "  onclick="closeForm2()">Confirmer</button>
+                                  </form>
+                            </div>
+
+                            <div style="text-align: right;margin-top: -40px;">
+                                <button class="buttonm ossm">
+                                    <img src="..\icons\add.svg" class="icon-menu2 " > Ajouter
+                                </button>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary pt pr" style=" width:25%;margin-left: 300px;font-size: 17px;margin-bottom:30px;margin-top:30px;color:#fff;  "> Ajouter nouveau projet</button>
+        </div>
+    </div>
+</div>
+
+<!-- Javascript -->
+<script src="../js/libscripts.bundle.js"></script>    
+<script src="../js/vendorscripts.bundle.js"></script>
+<script src="../js/dropify.min.js"></script>
+<script src="../js/dropify.js"></script>
+<script src="../js/bootstrap-datepicker.min.js"></script>
+<script src="../js/mainscripts.bundle.js"></script>
+<script src="../js/dialogs.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+<script src="../js/sweetalert.min.js"></script>
+<script src="../js/forfor.js"></script>
+<script src="../js/advanced-form-elements.js"></script>
+
+
+
+</body>
+</html>

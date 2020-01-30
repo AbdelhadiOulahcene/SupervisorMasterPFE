@@ -1,0 +1,124 @@
+body {background-color: #EFF7FF;} 
+.bl{border: 1px solid #008BBF;} 
+#left-sidebar { background: #ffffff ;}
+
+.theme-orange:before, .theme-orange:after {
+    background: #EFF7FF;
+}
+.day { 
+	height :70px; 
+	width:70px ;
+	box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+	background-color: #ffffff;
+  	font-size: 35px;
+  	font-family: 'Poppins SemiBold';
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: normal;
+  	letter-spacing: normal;
+  	text-align: center;
+  	color: #008bbf; 
+  	}
+.month {   
+  					opacity: 0.51;
+  					font-size: 14px;
+            font-family: 'Poppins SemiBold';
+  					font-style: normal;
+  					font-stretch: normal;
+  					line-height: normal;
+  					letter-spacing: normal;
+            margin-top: -5px;
+  					text-align: center;
+  					color: #008bbf;   
+  					}
+  			.eve p 		{
+            font-family: 'Poppins Light';
+  					font-size: 13px;
+  					font-stretch: normal;
+  					letter-spacing: normal;
+  					text-align: left;
+  					color: #008bbf;
+  					padding-left: 10px;
+					}
+			.more {	
+					text-align: center;
+					font-size: 17px;
+  					
+  					font-style: normal;
+  					font-stretch: normal;
+  					line-height: normal;
+  					letter-spacing: normal;
+  					color: #008bbf;
+					}
+			.moree {	
+					  font-size: 17px;
+  					font-style: normal;
+  					font-stretch: normal;
+  					line-height: normal;
+  					letter-spacing: normal;
+  					color: #008bbf;
+  					
+					}
+			h6 		{
+  						font-size: 15px;
+  						font-weight: normal;
+  						font-style: normal;
+  						font-stretch: normal;
+  						line-height: normal;
+  						letter-spacing: normal;
+  						text-align: left;
+  						color: #000000;						
+					}
+			.time 	{
+
+  						font-family: Open Sans;
+  						font-size: 15px;
+  						font-weight: 100;
+  						font-style: normal;
+  						font-stretch: normal;
+ 						  line-height: normal;
+  						letter-spacing: normal;
+  						text-align: left;
+              margin-top: 100px;
+  						color: #000000;
+					}
+			.media 	{
+						padding-left: 20px;
+						padding-right: 20px;
+					}
+			.notf { padding-left: 20px;font-family:'Poppins Regular';color: #606060; }
+      .soul:hover { text-decoration: underline; }
+      .phtcmt {height:50px ;width:50px ;margin-left:-10px;margin-right:10px;margin-bottom:10px;}
+
+.osr {font-family: 'Open Sans Regular';}
+.osl {font-family: 'Open Sans Light';}
+.ossm{font-family: 'Open Sans SemiBold';color: #000000;}
+.psm {font-family: 'Poppins SemiBold'; color: #000000;}
+.pr {font-family: 'Poppins Regular'; color: #000000;}
+.pl {font-family: 'Poppins Light'; color: #000000;}
+.lgl {margin-right:20px;margin-left:20px;background-color:#008BBF;height: 1px;}
+.date {font-family: 'Open Sans SemiBold';color: #008BBF;}
+.propic {
+      border-radius: 50%!important;
+      height: 160px!important;width:160px!important;margin-left: 100px!important;margin-top: 40px!important;margin-bottom: -20px!important;
+}
+.icopic {
+      border-radius: 50%!important;
+      background-color:#3D9EFF;width:50px!important;height:50px!important;margin-left: 210px!important;margin-top:-80px!important;padding: 2px!important;
+}
+.ip { 
+        background-image: url("../icons/edit.svg");
+        background-color: #3D9EFF;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 50px; 
+        width: 50px;
+        border-radius: 50px;
+        border: solid transparent;
+        cursor: pointer;
+        margin-left: 210px!important;
+        margin-top:-30px!important;
+        margin-bottom: 50px;
+        }
+.pt { width: 90%;height: 50px;border-radius: 20px  }
+
